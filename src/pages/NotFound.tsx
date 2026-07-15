@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'; import { ArrowLeft } from 'lucide-react'; import Navbar from '../components/Navbar';
+export default function NotFound(){return <><Navbar/><main className="not-found"><div className="lost-orbit"><i/><i/><i/></div><span>404 · LOST IN THE STACK</span><h1>This route took an unexpected turn.</h1><p>The page may have moved, or perhaps it was never deployed. The homepage knows the way back.</p><Link className="button" to="/"><ArrowLeft/>Return home</Link></main></>}
